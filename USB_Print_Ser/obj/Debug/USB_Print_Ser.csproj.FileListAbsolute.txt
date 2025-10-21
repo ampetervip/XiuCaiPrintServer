@@ -1,0 +1,7 @@
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\obj\Debug\USB_Print_Ser.csproj.AssemblyReference.cache
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\obj\Debug\USB_Print_Ser.Form_Main.resources
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\obj\Debug\USB_Print_Ser.csproj.GenerateResource.cache
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\obj\Debug\USB_Print_Ser.csproj.CoreCompileInputs.cache
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\obj\Debug\Print_Ser.Properties.Resources.resources
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\bin\Debug\秀才打印服务器.exe
+D:\DCode\VS\DWD_CODE\DTest\本地打印机转网络打印测试\桌面版\USB_Print_Ser\obj\Debug\秀才打印服务器.exe

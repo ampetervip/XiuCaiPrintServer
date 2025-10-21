@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print_Ser", "USB_Print_Ser\Print_Ser.csproj", "{BB2E1956-2BB6-4A99-A030-B8BC28116D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2E1956-2BB6-4A99-A030-B8BC28116D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2E1956-2BB6-4A99-A030-B8BC28116D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2E1956-2BB6-4A99-A030-B8BC28116D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2E1956-2BB6-4A99-A030-B8BC28116D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B905CA9F-B32E-48EA-A605-3FA2E91BCB15}
+	EndGlobalSection
+EndGlobal
