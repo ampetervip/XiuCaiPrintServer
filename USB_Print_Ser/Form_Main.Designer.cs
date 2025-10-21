@@ -77,6 +77,10 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.Grbox_Info = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.Grbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_服务端口)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -90,6 +94,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.Num_网站端口)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_限制上传大小)).BeginInit();
             this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.Grbox_Info.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Grbox
@@ -272,6 +279,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -669,6 +677,50 @@
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.Grbox_Info);
+            this.tabPage5.Controls.Add(this.richTextBox2);
+            this.tabPage5.Location = new System.Drawing.Point(4, 30);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(667, 489);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "关于";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // Grbox_Info
+            // 
+            this.Grbox_Info.Controls.Add(this.pictureBox1);
+            this.Grbox_Info.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Grbox_Info.Location = new System.Drawing.Point(0, 165);
+            this.Grbox_Info.Name = "Grbox_Info";
+            this.Grbox_Info.Size = new System.Drawing.Size(667, 324);
+            this.Grbox_Info.TabIndex = 4;
+            this.Grbox_Info.TabStop = false;
+            this.Grbox_Info.Text = "关于(喜欢就打赏一下吧)";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Print_Ser.Properties.Resources.收款码;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(661, 296);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.Azure;
+            this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.richTextBox2.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(667, 165);
+            this.richTextBox2.TabIndex = 3;
+            this.richTextBox2.Text = "\nby：晨露流星\nVx：51529502\ngithub：https://github.com/ampetervip/XiuCaiPrintServer";
+            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -701,6 +753,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.Num_网站端口)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_限制上传大小)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.Grbox_Info.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -754,6 +809,10 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ComboBox cmbPrintMode;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.GroupBox Grbox_Info;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 
